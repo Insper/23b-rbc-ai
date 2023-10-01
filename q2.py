@@ -55,6 +55,8 @@ def rodar_frame():
     print(f"Total de animais que pertencem a fazenda Esquerda: {RodaAtividade.total_animais_da_Esquerda}")
     print(f"Total de vacas intrusas na fazenda Direita: {RodaAtividade.vacas_intrusas_na_Direita}")
     print(f"Total de vacas intrusas na fazenda Esquerda: {RodaAtividade.vacas_intrusas_na_Esquerda}")
+    print(f"Total de vacas solitarias na fazenda Direita: {RodaAtividade.vacas_solitarias_na_Direita}")
+    print(f"Total de vacas solitarias na fazenda Esquerda: {RodaAtividade.vacas_solitarias_na_Esquerda}")
 
     cv2.imshow("Imagem", bgr)
     cv2.waitKey(0)
