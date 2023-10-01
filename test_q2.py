@@ -111,7 +111,7 @@ def check_des(results):
         print('falha ao identificar o total de vacas solitarias nas imagens desafio')
     if animais and fence and total_animais and vacas_intrusas and vacas_solitarias:
         nota += 1.0
-        print('[+1,0] Calcula corretamente os número de animais que não pertencem a nenhuma fazenda')
+        print('[+1,0] Calcula corretamente os número de animais que não pertencem a nenhuma fazenda - parabens!')
     return nota
 
 def test():
