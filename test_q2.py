@@ -4,7 +4,7 @@ from unittest.mock import patch
 import numpy as np
 import traceback
 
-from q2_ import CowMonitor
+from q2 import CowMonitor
 
 animais_expected = {
     'base-cows1.png': {'vacas': [(841, 374), (1105, 547), (474, 196), (1074, 241), (203, 189), (153, 513)], 'cavalos': [(410, 471)]},
